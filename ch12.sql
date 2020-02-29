@@ -1,6 +1,5 @@
 # 12.1 聚集函数
-# AVG() 返回某列的平均值
-# COUNT() 返回某列的行数
+# AVG() 返回某列的平均值# COUNT() 返回某列的行数
 # MAX() 返回某列的最大值
 # MIN() 返回某列的最小值
 # SUM() 返回某列值之和
@@ -62,3 +61,5 @@ SELECT COUNT(*) AS num_items,
        MAX(prod_price) AS price_max,
        AVG(prod_price) AS price_avg
 FROM products;
+
+--
